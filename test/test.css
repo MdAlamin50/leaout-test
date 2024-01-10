@@ -1,0 +1,43 @@
+.flexbox{
+  border: 2px solid red;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box{
+    border:2px dotted tomato;
+    width: 50px;
+    height: 50px;
+
+
+}
+.nave-home{
+    display: flex;
+    justify-content: space-between;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50%;
+    /* border: 2px solid tomato; */
+}
+.login input{
+    margin-top: 10px;
+}
+.login-contenar{
+    justify-content: center;
+    display: flex;
+}
+.item{
+    border: 2px solid red;
+ 
+}
+.coteainer-item{
+    /* grid-template-columns: 200px 200px 200px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
