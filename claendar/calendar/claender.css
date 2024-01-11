@@ -25,3 +25,22 @@
     justify-content: center;
     align-items: center;
 }
+.foood{
+    border: 1px solid rgb(213, 99, 17);
+    padding: 10px;
+    border-radius: 5px;
+}
+.conteanir{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.foood img{
+    width: 100%;
+}
+@media screen and (max-width:576px) {
+    .conteanir{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
