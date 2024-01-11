@@ -1,0 +1,29 @@
+
+.contenier{
+    display: flex;
+    gap: 20px;
+}
+
+.box{
+    background-color: antiquewhite;
+    border-radius: 7px;
+    padding: 20px;
+}
+.contenar2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.item{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    border:2px solid green
+}
+
+@media screen and (max-width:576px){
+    .contenier{
+        flex-direction: column;
+    }
+    
+}
